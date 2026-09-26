@@ -23,4 +23,7 @@ FILAS = 300
 ROLES=[Administrador,]
 
 #4. funcion generadora
-def generar_datos(numeros_filas):
+def generar_datos(numeros_filas=400):
+    'rol':random.choice(ROLES),
+    fechas_registro=:FALSITO.date
+
