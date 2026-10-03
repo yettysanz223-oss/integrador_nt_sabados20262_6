@@ -51,3 +51,24 @@ tabla_ordenada_prioridades = generar_prioridades()
 
 #6. Probar la funcion
 print(tabla_ordenada_prioridades)
+
+#7. preparar la simulacion para ensuciar mis datos
+
+#7.1 Funcion para obtener una muestra de los datos 
+def obtener_muestra(datos, porcentaje):
+    return datos.sample(frac=porcentaje, random_state=random.randint(0, 99999)).index
+
+#7.2 funcion  auxiliar para cambiar valores de un texto
+
+def escribir_mal(texto):
+    # Implementar lógica para ensuciar el texto
+    variantes = [texto.lower(), texto.title(), texto.capitalize(), f"{texto}  ","Juan Jose"]    
+
+    return random.choice(variantes)
+
+#7.3funcion auxiliar para cambiar los booleanos
+def convertir_booleano(valor):
+    if valor:
+        return random.choice(["SI", "1"])
+    else:
+        return random.choice(["NO", "0"])
