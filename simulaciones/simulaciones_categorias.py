@@ -16,7 +16,7 @@ CATEGORIAS = [
     "Logistica",
     "Tecnologia",
     "Marketing",
-    "Finanzas",
+    "Finanzas.",
     "Recursos Humanos",
     "Ventas",
     "Produccion",
