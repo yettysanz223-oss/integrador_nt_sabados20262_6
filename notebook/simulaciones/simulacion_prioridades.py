@@ -118,9 +118,15 @@ def ensuciar(datos_df):
     filas_absurdas = obtener_muestra(restantes, 0.03)
     datos_df.loc[filas_absurdas, "dias_max_respuesta"] = 999
 
-    # duplicados exactos: 8% de filas repetidas (siempre al final)
-    duplicados = datos_df.sample(frac=0.08, random_state=random.randint(0, 9999))
-    datos_df = pd.concat([datos_df, duplicados], ignore_index=True)
+    # duplicados exactos: 8% de las filas son copia exacta de otra fila.
+    # Se reemplazan filas (no se agregan), asi el total sigue siendo n (200).
+    cantidad = int(len(datos_df) * 0.08)
+    posiciones = list(range(len(datos_df)))
+    destino = random.sample(posiciones, cantidad)
+    origen = random.sample([p for p in posiciones if p not in destino], cantidad)
+    for d, o in zip(destino, origen):
+        posiciones[d] = o
+    datos_df = datos_df.iloc[posiciones].reset_index(drop=True)
 
     return datos_df
 
