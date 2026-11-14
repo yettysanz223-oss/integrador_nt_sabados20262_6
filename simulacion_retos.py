@@ -112,5 +112,6 @@ if __name__ == "__main__":
     print(df.shape)
     print(df.head())
     print(df.isna().sum())
+    
 
     
