@@ -1,1298 +1,1202 @@
 [
   {
-    "id":"f9208a40-e8b2-4811-b6c1-c4ac0783db17",
+    "id":"62d88e81-77f2-45fd-8992-a7fba045b35b",
+    "nombre":"CRITICA",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"4c41c5c2-6b4d-4bca-abe9-b0478b9c0731",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"220ac4e3-c2ed-4f8c-ad9f-2004390b0277",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"f50deeca-cd47-4225-a9f8-85fcb9861581",
+    "id":"aa39cf5f-0c7c-4a01-9ab1-46304a2504dd",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":999
   },
   {
-    "id":"c30ae867-e4a3-427e-97fe-683c36e60761",
+    "id":"e9a99e89-7b9b-49f6-ba5d-dd73cf46971f",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":10
   },
   {
-    "id":"55dfe2fe-b601-4bb4-b518-62222d0c0b2e",
+    "id":"0bda2ea5-3751-4c95-85c4-652495122950",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"66c2e295-bc00-42f0-ae68-2676e7944608",
+    "id":"03d549ed-6197-4783-9e0c-ac5c4d2ab64d",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"4746d29e-7f4c-4446-868b-c9e4d7333d15",
+    "id":"007f1fce-da60-496f-b4e0-a2e8b499f677",
     "nombre":"Baja",
     "nivel":"uno",
     "dias_max_respuesta":15
   },
   {
-    "id":"5e83a37c-e2ae-4754-a7d7-a71641acaee3",
+    "id":"5921d9a1-d904-4dbd-b5cc-f6c4a1917343",
     "nombre":" critica ",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"c8e21eea-7668-4e53-926b-4931a8015b7f",
+    "id":"00374ea0-de2e-4cfb-ac73-7755466325d1",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"74a6012a-7784-4457-be99-afda412e0398",
+    "id":"4f86e02d-c26e-4bcd-a1e6-dd8e000cea25",
     "nombre":"CRITICA",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"f69d7319-198c-4ca1-84d4-c13a6bff9a4c",
+    "id":"964aa185-e717-41b5-969e-ea51a3771445",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"eb1c98e1-62cd-48f4-bffa-35ac887c87dd",
+    "id":"6b0734c1-27ba-44be-b87f-9ba49a9ab9ea",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"3023f1e9-0770-4458-a327-c8e8da663100",
+    "id":"b1f0334e-7d92-4c95-89fd-bc2e58837d89",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"ac849dd6-4aca-49cb-a6b5-ff628c0ef370",
+    "id":"2f90b4f9-0e43-436a-a7bb-a1f4016f9263",
     "nombre":"BAJA",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"60224d3a-9ea0-482f-acde-c2825a2ea256",
+    "id":"4ad7a54e-2519-41f6-a72f-5daa827afaed",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"4eeaf82f-499d-4cf0-9a91-d3a50e8f6867",
-    "nombre":"Media",
-    "nivel":"2",
-    "dias_max_respuesta":10
-  },
-  {
-    "id":"d595eba3-883a-426d-a779-df3408cdbdf9",
-    "nombre":"CRITICA",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"374ac84a-6cee-4743-8629-4555f582ea86",
-    "nombre":"CRITICA",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"fd66843d-75e3-4e6a-88e2-1879cb089fe7",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"35a2388a-0ec8-4392-9cc7-ee74cd572f71",
+    "id":"e1a163d2-2e6a-4a95-a1f7-f47f5a887ae9",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"441287b6-f10d-46e3-9fdc-ef9cdae6f467",
+    "id":"62d88e81-77f2-45fd-8992-a7fba045b35b",
+    "nombre":"CRITICA",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"13f1ed15-1161-4847-a948-dcbc76a1514d",
+    "nombre":"CRITICA",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"375ea8f1-fa5f-4a3f-807f-8fa3ececf46e",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"cbc7337d-a8f7-4403-ad89-9664f98ac5c2",
+    "nombre":"Critica",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"7549af54-a1dc-4731-a2d6-57fb17db3449",
     "nombre":"MEDIA",
     "nivel":2,
     "dias_max_respuesta":null
   },
   {
-    "id":"2d4ef556-1ec3-4a23-852e-037832a36009",
+    "id":"70d8f424-e389-4c0e-95d0-422df3cd2292",
     "nombre":"Critica",
     "nivel":"cinco",
     "dias_max_respuesta":1
   },
   {
-    "id":"9722b99d-5996-4573-883a-e3be807481f3",
+    "id":"9c247dec-06ce-44f5-a14c-d5ca94a595be",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"0b50320d-7bbd-4241-a5c5-890e24468452",
+    "id":"1d156d56-9676-4024-b07f-c53f4150cf85",
     "nombre":" media ",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"23aa4f69-c40c-4837-a226-3fe39197b2f7",
+    "id":"3f17bd14-e299-49d2-9077-3ccbf410f262",
     "nombre":"Urgente",
     "nivel":"4",
     "dias_max_respuesta":2
   },
   {
-    "id":"11fee6bd-a13c-4f80-84eb-f02cb51e0484",
+    "id":"1b8f6edc-08ca-4f7c-aaa9-f52e723b6ea9",
     "nombre":"Critica",
     "nivel":"5",
     "dias_max_respuesta":1
   },
   {
-    "id":"e2dfc91c-5afc-4684-9c69-e6adcf8aa404",
+    "id":"043e65b6-037f-411e-8202-22b17ef51656",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":null
   },
   {
-    "id":"ff21e85c-3276-46ad-ad50-c4cecb5a0b9f",
+    "id":"f2de309c-bc30-4b03-9770-64468f1777c3",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"07dfb204-dde8-43f6-aad5-72f86e7f5dc5",
+    "id":"9710b6e0-10ba-4df8-a1d4-9b2d89c98b61",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"0cc8d568-f2fb-448c-8fb5-c511c78113dc",
+    "id":"69fb0a74-61a6-4e29-b382-c07e0bfd1e11",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"834954c8-ac29-48a5-951f-40d1c343851b",
+    "id":"47bfbedc-3348-4188-97ea-9d22574c5a96",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"ad04a66d-6b11-4a3b-9c57-fc3e536445db",
+    "id":"3b3e23fb-22fb-4a35-aa41-c4f1d217adfb",
     "nombre":"Alta",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"ad58b8e0-1412-4299-b347-44ac50c7769d",
+    "id":"4676ac4d-05ff-4329-a204-5ec4e2abfe4e",
     "nombre":"Media",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"d4c3eed2-9705-47c1-b02b-5e259a1dbe45",
+    "id":"c18d7a2a-e8db-4128-8006-aeea3789214f",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"00696e19-aca8-49d6-a4ad-e8ff2935ec07",
+    "id":"31472e27-cf4d-42cb-aad3-c0160e6fd7a8",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"a0218a26-81fc-4aea-9610-6fdeca1f7614",
+    "id":"7458f1ed-8578-4c2f-b738-54e690e33e8e",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"3dfb1249-834e-4f6c-ad91-81196b16f589",
+    "id":"02e37556-2c28-48b0-90a5-e7bd8cd53b1f",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"11304fa1-8d14-4ac9-a47b-0ef1fd90de0a",
+    "id":"a9f8d0f5-73ec-47c7-9bd9-00ed5b63d845",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"066e3bbe-7896-4223-9229-449b526300f7",
+    "id":"3a0d2155-a140-4012-acd1-2fbef652486e",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"52761ff9-8817-4944-bbda-e51c9e95ee9e",
+    "id":"f38f2131-49d8-40c5-b62f-33ae52b9dc0a",
     "nombre":" alta ",
     "nivel":"tres",
     "dias_max_respuesta":999
   },
   {
-    "id":"329d5844-d893-445e-bfbb-57d309effd03",
+    "id":"4dd9f820-be51-456b-813a-3f8c6fafe597",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"f4070916-21e5-4f94-a6d6-dbc22b024dd1",
+    "id":"10d780bf-3ce6-4c03-b5e4-a9c7d066bada",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"dcd17c22-891a-4453-9d16-0700e305e612",
-    "nombre":"Alta",
-    "nivel":3,
-    "dias_max_respuesta":5
-  },
-  {
-    "id":"265cbec6-7d4c-4c9a-9927-4596eae8201b",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"b421bc15-7e73-4b5d-bfb6-65c4363e0553",
-    "nombre":"URGENTE",
-    "nivel":4,
-    "dias_max_respuesta":2
-  },
-  {
-    "id":"9c616a5c-c24a-4821-8f0f-7c01b14b3d51",
-    "nombre":"Critica",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"30642924-76f0-450d-b23d-55f070d56618",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"80743ee0-6e28-43e0-9604-7081bfc70386",
-    "nombre":"URGENTE",
-    "nivel":"cuatro",
-    "dias_max_respuesta":2
-  },
-  {
-    "id":"4698b3bf-645d-4d89-8cdc-1c402339c97d",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"852e33cd-17b7-4dbb-ac2f-c80f39f9bb72",
-    "nombre":" critica ",
-    "nivel":"cinco",
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"e0d255ff-e76d-40ff-9ad5-33ca1a9d8ace",
-    "nombre":"ALTA",
-    "nivel":3,
-    "dias_max_respuesta":5
-  },
-  {
-    "id":"4cd3d6e5-34d7-45a9-9285-6c5c6e4b118b",
-    "nombre":"Critica",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"ce1713d6-4859-4a0b-945e-c28c42a37f8d",
-    "nombre":" alta ",
-    "nivel":null,
-    "dias_max_respuesta":5
-  },
-  {
-    "id":"b52138b8-a37f-458f-a35f-6ce9dfab4100",
-    "nombre":"Critica",
-    "nivel":"cinco",
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"ffcd71ec-c67d-4c26-a76b-33b2dc617958",
-    "nombre":"Media",
-    "nivel":2,
-    "dias_max_respuesta":null
-  },
-  {
-    "id":"8a84c0c7-3e2c-476d-812a-3c0346987602",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"73e03171-5d47-41cd-a026-bf9e0882ed17",
-    "nombre":" baja ",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"ca707740-5653-4c9e-94ae-2f7e77c247e2",
+    "id":"f4be61f4-c2e4-4bc0-8268-c02a70845dd4",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"0857f72e-275f-4832-a407-2d8521cdd985",
+    "id":"085ae2f7-3459-497c-a60d-52dfd2a75c5b",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"d62a3b8a-aada-4834-adeb-39611340301a",
+    "nombre":"URGENTE",
+    "nivel":4,
+    "dias_max_respuesta":2
+  },
+  {
+    "id":"a192e1c4-613b-41ef-8c5f-460733c4cb7c",
+    "nombre":"Critica",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"d174033b-4096-49c7-9aae-54598c97a2a5",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"713422a4-6f6e-4526-8d6c-246aebac79d3",
+    "nombre":"URGENTE",
+    "nivel":"cuatro",
+    "dias_max_respuesta":2
+  },
+  {
+    "id":"d0e060d7-5b7f-4c61-9429-cc4aef688d05",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"7a9d773c-8ef4-4cbb-b59d-85559d2d757c",
+    "nombre":" critica ",
+    "nivel":"cinco",
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"a22c7635-8462-4637-bf8e-f8f741032d1b",
+    "nombre":"ALTA",
+    "nivel":3,
+    "dias_max_respuesta":5
+  },
+  {
+    "id":"e1a163d2-2e6a-4a95-a1f7-f47f5a887ae9",
+    "nombre":"Critica",
+    "nivel":5,
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"9f80635f-fe74-43f6-9394-0449afd8ee43",
+    "nombre":" alta ",
+    "nivel":null,
+    "dias_max_respuesta":5
+  },
+  {
+    "id":"25412fb8-a33e-4dea-acf9-d6ef3b26789a",
+    "nombre":"Critica",
+    "nivel":"cinco",
+    "dias_max_respuesta":1
+  },
+  {
+    "id":"463af133-001a-481d-b8c6-886f86c67c13",
+    "nombre":"Baja",
+    "nivel":"uno",
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"2d3a4a64-3caf-45b6-9583-f2ce8b602bb0",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"7e58a6f5-8147-4e01-a627-d241abe68e67",
+    "nombre":" baja ",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"1a92b44d-cd42-420d-ac7b-8bd384e405d8",
+    "nombre":"Media",
+    "nivel":2,
+    "dias_max_respuesta":10
+  },
+  {
+    "id":"b7e9a642-3860-4c24-9003-178a89ecb18c",
     "nombre":"Alta",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"1495a845-6b1f-4808-946b-7345359cf819",
+    "id":"fd474364-854e-4c14-855a-20aa1c3a2116",
     "nombre":"Baja",
     "nivel":"1",
     "dias_max_respuesta":15
   },
   {
-    "id":"45083029-e122-4296-a4bf-1e6b077ce535",
+    "id":"937e3855-0607-4512-bb8a-bf5b8de25341",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"aaa48723-5e8e-4ba7-a2ce-be91892470a8",
+    "id":"d9554378-a187-400c-90a0-c0c0d03e0e15",
     "nombre":"BAJA",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"92868747-160a-4dc8-8c7f-75f5cc133d9c",
+    "id":"83e37da3-3888-4743-8d27-6cb48a003770",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"6dee625f-bb54-4bcd-81ff-c897eb596a3d",
+    "id":"6ec5a6ad-2824-4816-9569-4a184883d5ea",
     "nombre":"ALTA",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"bd0f1d9b-b3d1-4699-a8da-6779e7c80c30",
+    "id":"bf95e98e-fb46-4a5f-b30c-6d9ac0a419e1",
     "nombre":"URGENTE",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"1e96eb3a-b8b3-4df2-98b3-f320ec331727",
+    "id":"2dca39ca-acef-4436-9201-be18bf0932ce",
     "nombre":"ALTA",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"3437e16f-7527-45e3-8507-8069b25a2202",
+    "id":"f350b8c3-2342-45b7-a100-b04305b70a55",
     "nombre":"Media",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"063013cb-69ac-448f-a912-009d0cc7b135",
-    "nombre":"Alta",
-    "nivel":"tres",
-    "dias_max_respuesta":5
+    "id":"ac27d988-43bf-40a8-bf15-a857f75d97c1",
+    "nombre":"Critica",
+    "nivel":5,
+    "dias_max_respuesta":1
   },
   {
-    "id":"aec44782-9ed4-49e5-89de-2286baa2e5e7",
+    "id":"0b638565-8e72-421a-84b5-1b2f53cb03b1",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"a7194bb5-c1f1-4731-891d-adfc070ae177",
+    "id":"6b018247-4911-49e9-adb7-30e68b57e70a",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"f03a7195-0b89-413b-b1e9-b63404441b70",
+    "id":"0cf99227-3107-4314-bbb6-52b1eda03f37",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"42976b89-db9b-49d6-bc9e-f186efa7042f",
+    "id":"fe828b90-a7c0-43fa-b182-094c2b431153",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"89714ea6-29ac-4f04-810b-395581a3c46c",
+    "id":"ba852875-0d19-41d2-a629-edcfaf9a9625",
     "nombre":"Critica",
     "nivel":"5",
     "dias_max_respuesta":1
   },
   {
-    "id":"33a68830-f4b7-4f09-9c6b-f5e5944c8764",
-    "nombre":"Media",
-    "nivel":"2",
-    "dias_max_respuesta":10
+    "id":"fdb6c58a-e6e7-428c-84e3-72cb9825a96f",
+    "nombre":"Alta",
+    "nivel":3,
+    "dias_max_respuesta":5
   },
   {
-    "id":"c36410da-72d5-48d0-9d5c-3759eb35af1b",
+    "id":"dd852126-6321-4205-b031-9ad4e9158c65",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"beed3b42-0b05-41a3-882d-dbca06f57ced",
+    "id":"74edb0d8-78aa-4e33-a9e9-fd4a846276bd",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"a1253bff-b01e-48b7-a06d-3c1f0df6f3f5",
+    "id":"db8caf4f-3213-4f76-a9fa-51e23ab0d2a8",
     "nombre":"MEDIA",
     "nivel":"dos",
     "dias_max_respuesta":10
   },
   {
-    "id":"5c875a2d-2a0f-4554-a92a-5f0060ebe44c",
+    "id":"83a43fa6-256c-4580-8566-a9bbb2e050ac",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"8268c503-82c3-4210-8edb-51c15350dc4b",
+    "id":"03f2678e-9880-4a94-bf74-b58a23405a42",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"86c94306-81e0-47cf-81ef-bf069c0f6294",
+    "id":"fb804324-ef4d-4c44-86e6-682c013988fd",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"e0b09744-3db3-4f7b-b0ba-cf46a4aff196",
+    "id":"2a04bdf5-1e49-4c4f-866a-4d0fd4b4bc31",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"87f56261-73af-426e-bfe4-1d4029a92e7e",
+    "id":"f4be61f4-c2e4-4bc0-8268-c02a70845dd4",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"034b146d-ecad-4215-9d9c-fa5df5d37c29",
+    "id":"e7a3cdfc-cf81-4e03-bfcb-c39b21ab6d62",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"0e412ded-f39e-4ffb-a36f-dd1462f94adc",
+    "id":"fb48418f-9360-44f3-8fe2-a75ef5901eb7",
     "nombre":"Baja",
     "nivel":null,
     "dias_max_respuesta":15
   },
   {
-    "id":"2a4b086d-703b-49e9-8d8f-7a451fa1711d",
+    "id":"a1acb41e-a6fb-44c0-a6a6-a20a1a6530ae",
     "nombre":"Media",
     "nivel":null,
     "dias_max_respuesta":10
   },
   {
-    "id":"13a66967-866e-4a3a-a500-6911a1b022c3",
+    "id":"95efb2e2-6cfc-4e55-b961-590bad718a79",
     "nombre":" baja ",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"4a8ec9a7-ef21-4a56-a962-d6b7485c9feb",
+    "id":"fdb6c58a-e6e7-428c-84e3-72cb9825a96f",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"c43cde22-1466-47ab-a1b3-6c3cd6800a8b",
+    "id":"0a321cb7-629a-44fe-b6d2-c22bec349026",
     "nombre":" urgente ",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"5b2f1e17-5de4-441c-a36e-46f901c6f705",
+    "id":"17d512cf-6353-4e1d-8d4b-1f86dd396aa4",
     "nombre":"Alta",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"47da935e-d4ba-4005-ba3b-9ed3d825eb2d",
+    "id":"d7a97915-7114-46da-be6b-3d77b2d05281",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"19ca21cc-f5a5-4843-9b6e-e116ba68d214",
+    "id":"0d2ace1d-dcd7-4368-adb5-287d9e7759fb",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"f945d96a-39f0-4d91-9f3f-2cd34260990d",
+    "id":"03383455-4265-4c79-a167-6f2554294e92",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"549ce651-0f99-4043-8d5f-ce85587f63b1",
+    "id":"20590711-2b2a-44e2-be4e-97f2a4f340b1",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"aa19f96d-a82e-46d9-8d07-057561c08b4e",
+    "id":"5f8ba112-0854-4bdd-9b68-2aef424111b4",
     "nombre":"MEDIA",
     "nivel":null,
     "dias_max_respuesta":10
   },
   {
-    "id":"381c1121-5f87-464e-83f7-c89b4005de5f",
+    "id":"6c8a2dd0-7f7e-4b78-8b85-bd5080c061b6",
     "nombre":"URGENTE",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"78904013-3149-47eb-800d-2a87a8f2feba",
+    "id":"4c0c8640-148c-4d75-907f-dfce226c4e97",
     "nombre":"Urgente",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"c7083b00-0950-423a-8128-dd0659d330e0",
+    "id":"c0065e61-8f30-4d35-9e26-bd87a635347a",
     "nombre":"Urgente",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"4e237368-a437-42db-ad73-3271146b657d",
-    "nombre":"Media",
-    "nivel":2,
-    "dias_max_respuesta":10
+    "id":"fd474364-854e-4c14-855a-20aa1c3a2116",
+    "nombre":"Baja",
+    "nivel":"1",
+    "dias_max_respuesta":15
   },
   {
-    "id":"0c8f4d02-b8b1-4127-b310-d4e72817a923",
+    "id":"ff140e88-40fb-4132-9cf9-378ed306bd51",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"c18632a0-1a0c-43f6-8dd3-f230ee10bebd",
-    "nombre":"Media",
-    "nivel":null,
-    "dias_max_respuesta":10
+    "id":"538611c5-bc9d-40d2-8211-9784c54ddade",
+    "nombre":"Baja",
+    "nivel":1,
+    "dias_max_respuesta":15
   },
   {
-    "id":"4dfeb6af-4957-4331-8072-d2f6dfc9b005",
+    "id":"03c96be6-0976-4bc3-bfed-949eeeae89fa",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"b28e8043-4974-4e29-b67e-9365d3463d02",
+    "id":"73d5222b-d614-4585-a1e6-691fad924eff",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"37ee0b58-8ea3-48d0-ae3b-fda24607287d",
-    "nombre":"CRITICA",
+    "id":"10d780bf-3ce6-4c03-b5e4-a9c7d066bada",
+    "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"8ad4d934-9af1-4e39-8c26-a19abde2ae47",
+    "id":"ebfe6ca1-10af-449a-9856-b3aaf196c465",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"70d404ee-121d-4dcb-b63e-eead9a602d15",
-    "nombre":"Critica",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"a98be834-a55c-48de-9f6b-72c8bbef8a2a",
+    "id":"82996b93-ab10-4c08-ab90-90ee65215192",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"10b35b39-8945-4a3a-a0c0-12466fa9c0f6",
-    "nombre":"Critica",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"9d2966a1-87f5-44c2-b004-38606fd8474d",
+    "id":"8cf028ce-008d-4d38-a369-f0a392aeac80",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"1053a829-1cf8-4e31-8e03-5adf15d0d304",
-    "nombre":"Alta",
-    "nivel":3,
-    "dias_max_respuesta":5
+    "id":"186900d0-19a4-48e9-9a87-2279d4c93d2c",
+    "nombre":"Critica",
+    "nivel":5,
+    "dias_max_respuesta":1
   },
   {
-    "id":"54317f3f-5f80-4ace-8f14-2454c5343a65",
+    "id":"834ac334-09a9-4e24-9069-f976e2593cac",
+    "nombre":"Urgente",
+    "nivel":4,
+    "dias_max_respuesta":2
+  },
+  {
+    "id":"2f90b4f9-0e43-436a-a7bb-a1f4016f9263",
+    "nombre":"BAJA",
+    "nivel":1,
+    "dias_max_respuesta":15
+  },
+  {
+    "id":"7ae02ea8-b8ca-4ef6-9a9d-119af6e46cc7",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"72b0c129-5a4b-4b4e-92b5-0746f412eae1",
+    "id":"0047a1ed-2148-4d74-9c30-a68c1dce569c",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":null
   },
   {
-    "id":"34aa04ab-8e40-44d5-a1ce-d10882cac83a",
+    "id":"e1cbf35b-7f6d-4e8d-bc68-449a262cc1b1",
     "nombre":"Critica",
     "nivel":"5",
     "dias_max_respuesta":1
   },
   {
-    "id":"3a73c2e9-502f-4af7-a5c2-2c2f800bf659",
+    "id":"fd3fc4f0-73f9-4707-b40f-485425c993a5",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"9bacc612-ffdf-4123-871f-853505b47c0c",
+    "id":"d0584671-7e4d-4891-b0c9-b57c7375ead9",
     "nombre":"Baja",
     "nivel":"uno",
     "dias_max_respuesta":15
   },
   {
-    "id":"55d1473a-31ee-473a-83dc-825ea12f276b",
+    "id":"6be1bf43-b030-42f5-8755-8c119afb4c67",
     "nombre":"BAJA",
     "nivel":null,
     "dias_max_respuesta":15
   },
   {
-    "id":"077413bc-2c6e-4c56-99d0-ea721b249b16",
+    "id":"a32b3fe4-e64b-417f-8c55-ebf66b43be72",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"ca44d2c4-0bf6-4bb9-ab9c-2ea430a13632",
-    "nombre":"Media",
-    "nivel":2,
-    "dias_max_respuesta":10
+    "id":"13f1ed15-1161-4847-a948-dcbc76a1514d",
+    "nombre":"CRITICA",
+    "nivel":5,
+    "dias_max_respuesta":1
   },
   {
-    "id":"9d0967cc-26ee-4322-8533-0f7613212938",
+    "id":"cd630a9d-303b-450e-b1e5-ba073d69e8d9",
     "nombre":" media ",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"f919af7e-459d-4d17-9c67-d7c08d85b248",
+    "id":"68448645-085d-4a9d-906c-62018e04a045",
     "nombre":"Urgente",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"a39f2f18-236f-4352-936f-9ab02ad3b1bf",
+    "id":"9bfe08ad-0916-4f1e-aa0f-ca103a96125d",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"e0b3f1d0-1c81-4610-8596-3c2603c9446f",
+    "id":"83a54ab6-8197-45f6-8f44-6bd978e15d88",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"33fb33d3-5f47-4ee7-8994-91269ebe0099",
+    "id":"e0e22b91-d08c-40ba-a35b-4e2a4f459a8f",
     "nombre":" urgente ",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"e154e020-54de-43b7-a21f-4c408db47d4c",
+    "id":"81bc0bef-2496-4dc3-b568-c7cff14cda71",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"a30273b9-4bb5-4084-8bab-86b1d1a02529",
-    "nombre":"CRITICA",
-    "nivel":"5",
-    "dias_max_respuesta":1
+    "id":"5d9a7967-4e0f-4bb2-ad40-a81789d60857",
+    "nombre":" baja ",
+    "nivel":null,
+    "dias_max_respuesta":15
   },
   {
-    "id":"e5f4bdd8-7915-453c-8af6-93c93494fbed",
-    "nombre":"Urgente",
-    "nivel":4,
-    "dias_max_respuesta":2
+    "id":"a02449d9-0d36-4559-a48a-62d85b8ebaf3",
+    "nombre":"Alta",
+    "nivel":"3",
+    "dias_max_respuesta":5
   },
   {
-    "id":"3fce15c9-37d9-46a5-ae5f-09e1137a4fc8",
+    "id":"0425cd03-ec7b-4ff3-80bd-4ad3b8e385f5",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":null
   },
   {
-    "id":"22ef42d7-a786-445f-9c55-434b63de0841",
+    "id":"2184a27c-76a6-441a-b4dd-c93dbf7f4ce6",
     "nombre":"Alta",
     "nivel":null,
     "dias_max_respuesta":5
   },
   {
-    "id":"4e12ec49-e51a-4633-9806-620d1f70d472",
+    "id":"28be841c-f420-4354-a456-bf97928f53b8",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"c300aac2-66ba-41e7-ac33-2d068c4b3ccb",
+    "id":"255a00f0-cbe5-4134-880c-186bf86d6e90",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"526eaf20-e33b-4fe2-9e90-f808b4e5a388",
+    "id":"f59a02f1-6212-4cdb-a9d9-acac6f25986b",
     "nombre":"Baja",
     "nivel":"uno",
     "dias_max_respuesta":15
   },
   {
-    "id":"d9c52502-2581-4ad0-b6e6-4aaaf9503188",
+    "id":"a907d80a-bcfa-486a-ba15-bd56a6bcc79a",
     "nombre":"Critica",
     "nivel":"5",
     "dias_max_respuesta":999
   },
   {
-    "id":"2c24ae64-d228-477f-b49c-1b785b8d5d2a",
+    "id":"8d0d8ab1-e2d2-472a-a073-3f071c198c5d",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"367d722c-7069-4985-9468-4b4203b3825f",
+    "id":"a58c7000-6db3-4f4d-86b0-20bd67904114",
     "nombre":"Alta",
     "nivel":"tres",
     "dias_max_respuesta":5
   },
   {
-    "id":"d16ab41c-ce79-48d3-9545-092ce7bfca15",
+    "id":"4fcb35ae-2460-4213-be0c-e68138591734",
     "nombre":"Baja",
     "nivel":"uno",
     "dias_max_respuesta":15
   },
   {
-    "id":"9639b01b-da2f-4738-be37-387c0c72452b",
+    "id":"8b2f3b8e-d099-4885-a0da-abdbb34cf655",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"70aafb46-acb2-460c-8cde-c4513469bdaa",
+    "id":"6b69bad7-c1b1-4ed7-bb45-67583e597411",
     "nombre":"Urgente",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"405dfabc-f15c-498c-98da-f5b9b76b19ee",
+    "id":"32403074-9b84-4fc8-be29-b32df76c2a8c",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"f00591e9-9aa1-451a-bc20-720175347f89",
+    "id":"e8d328d1-fa34-497f-b12b-c3273acbeea5",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"40e2248f-d5f4-42e7-9708-bddb735a7f36",
+    "id":"463af133-001a-481d-b8c6-886f86c67c13",
     "nombre":"Baja",
     "nivel":"uno",
     "dias_max_respuesta":15
   },
   {
-    "id":"a9c0c6b4-6d3b-4462-93cc-7056e40e801f",
+    "id":"f4b28789-90b2-4aa8-a959-b8af3a32655b",
     "nombre":"Alta",
     "nivel":"tres",
     "dias_max_respuesta":5
   },
   {
-    "id":"1bb02df6-ba0b-4f4d-a015-99b6e2dec0c9",
+    "id":"7539c144-36f9-4115-b92b-1e737a3f4a5e",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":null
   },
   {
-    "id":"3d879072-ff39-4dad-9094-c3ea66b3d1c3",
+    "id":"46dc5c87-c088-4923-9c7e-4152a459f79b",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":null
   },
   {
-    "id":"99a41299-5fc9-42f7-b18f-f5f45bd88b2e",
+    "id":"c4d82fd9-8170-45fe-b4ed-b4aac022de3a",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"3185f17d-2542-4af6-8fca-87159a1015ca",
+    "id":"e3061624-f756-4ceb-b62e-24cd0fbaf808",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"8d9ab9ba-1570-4140-a9d6-385aac04ace0",
+    "id":"80e8d556-8018-4efa-866c-49e9fe18ea6e",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"a9baca1d-c1a7-4d38-9625-4d85b7aa4173",
+    "id":"aa2780fc-2817-48c6-b5d5-c4e9d01d9e80",
     "nombre":"CRITICA",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"2427da2c-6016-44cd-8a9c-8c1f03c5c508",
+    "id":"f3cbfd41-4a67-4ebb-bbd8-c06ab6de28c5",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"907f3300-60d7-4751-8a02-4182d0d1e2de",
+    "id":"9f7494e5-5c05-4d93-bb72-fc8f505f98dd",
     "nombre":"MEDIA",
     "nivel":null,
     "dias_max_respuesta":10
   },
   {
-    "id":"8f1982e2-16b0-4c2f-9489-0b3d0d376ba0",
+    "id":"06062d2c-f43d-4398-a785-5f8558b6ecd5",
     "nombre":"Media",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"fa75af94-79b1-4c44-ae21-7f4f9a3ae86a",
+    "id":"569acbf7-8b21-41fa-8fa4-3113a4a63046",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"1133c4ef-4278-471a-9df5-242db11ac5e8",
+    "id":"d084ae25-84a3-48f0-b891-8b0481718d30",
     "nombre":"Media",
     "nivel":null,
     "dias_max_respuesta":10
   },
   {
-    "id":"b3d74278-0d76-4404-be52-f3f865d45ff7",
+    "id":"74405bb7-19db-4a5c-a69e-b9bf0d649d0f",
     "nombre":"Critica",
     "nivel":"5",
     "dias_max_respuesta":1
   },
   {
-    "id":"a876ca2f-4b48-41e5-b802-a7e5c4d0827c",
+    "id":"ac27d988-43bf-40a8-bf15-a857f75d97c1",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"23ba4964-b406-4546-adeb-c586e1f0ae82",
+    "id":"7404f964-c5d6-4422-a8e1-2c417b026b2e",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"b60aa77a-ba4c-49e3-b99c-81b2cd345340",
+    "id":"c9b1ed2c-ad8e-49b3-ba05-4d64bea9c1f1",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"3a7a5f34-096a-4aab-9826-699aba8bc6d3",
+    "id":"205ac7df-a204-46d6-8605-a4e881cdf802",
     "nombre":" alta ",
     "nivel":"tres",
     "dias_max_respuesta":5
   },
   {
-    "id":"66f33457-9073-4644-b12a-1431b0682863",
+    "id":"82996b93-ab10-4c08-ab90-90ee65215192",
     "nombre":"Urgente",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"276018f8-fdf1-42eb-a3fa-5dee87725e4b",
+    "id":"c770b230-d263-421f-ba2a-f93f8d4628aa",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"ceeb1603-4c1c-4fd8-848c-3083a3628364",
+    "id":"98a087f3-b774-48b2-87be-1ee7445ee3af",
     "nombre":"BAJA",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"20e1c871-b46b-4cd4-be04-8f7360067998",
+    "id":"f9c6d636-8d61-43a4-add3-a010db05b850",
     "nombre":"Alta",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"4eba31bc-a1d8-4f7c-a8d6-91d6645bde1f",
+    "id":"2e4070cb-80f8-4fe0-885e-4fd67bae6c2e",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"488e64cd-4d54-4305-a125-076fbfdf8b04",
+    "id":"55766e75-6586-4f4e-9338-61c1ea3c2dc0",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":10
   },
   {
-    "id":"1432aa0b-fb5a-464e-9db3-2f1b62bab58d",
+    "id":"538611c5-bc9d-40d2-8211-9784c54ddade",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"7249e9a0-d81c-4c03-bd5e-1a5a4abd3ec3",
+    "id":"bf208fa0-a8d1-4f5f-9c94-bb6ec9fce3ac",
     "nombre":" media ",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"451755a3-9a7d-46b3-949c-7e13ebdd3024",
+    "id":"535af308-9f26-4821-a0d0-624dfb8ff0a6",
     "nombre":"CRITICA",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"9ec22a82-5a59-4d44-b3c8-7b5b0d58ccd7",
+    "id":"3d267664-a3ae-4362-ab46-d40c0bfee4a6",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":999
   },
   {
-    "id":"858227de-0aa6-4046-862b-e6d3e9e5656a",
+    "id":"52876c85-3962-405b-931f-a0303734c92a",
     "nombre":" baja ",
     "nivel":1,
     "dias_max_respuesta":null
   },
   {
-    "id":"f30efc62-4ad6-455d-aece-263bf7bc663c",
+    "id":"e5071dc0-d1f0-4dcd-91ed-f089973fa72f",
     "nombre":"Urgente",
     "nivel":"cuatro",
     "dias_max_respuesta":2
   },
   {
-    "id":"cb1c92fa-6923-4ebd-9493-09a879782607",
+    "id":"9e975bfa-7bf7-4ef5-ad3b-568e5dc78603",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"63ce8314-6f70-4a16-b133-3df484f6477a",
+    "id":"b649a499-b10b-48f6-9771-9efae73c4752",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"7da648d6-9bd7-408e-980a-34ea89c07e0f",
+    "id":"1a072a61-f0f8-4d7f-b8a4-90bd684b8e80",
     "nombre":"Media",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"2208509b-f633-478f-bcde-5fecec68aceb",
+    "id":"055f936f-7da6-431f-a806-97ca14d5ec6b",
     "nombre":"Media",
     "nivel":"2",
     "dias_max_respuesta":10
   },
   {
-    "id":"70539754-6163-4599-a3c4-6f62791cad50",
+    "id":"aa39d75a-de8f-4881-853d-984aa368dd32",
     "nombre":"Urgente",
     "nivel":"4",
     "dias_max_respuesta":2
   },
   {
-    "id":"d9df4d7b-1b12-47e3-bbc2-36b1630a347b",
+    "id":"1ba8c5a8-2b65-4326-b9c2-cfaebd375c40",
     "nombre":"CRITICA",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"b45480fb-5882-4ead-a26a-b9d6b9ca134e",
+    "id":"c090b287-f526-4cda-8f85-4e0428ea0a72",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"79f38ac5-52d6-4fd4-8c87-daef01e3e743",
+    "id":"2cad56cb-7578-4934-9ccd-ceaf29e95630",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"303df8d6-c2da-45dd-9d33-4678c37717bd",
+    "id":"5d49ba4e-7ac6-4c01-928e-ddf752d604e1",
     "nombre":"Critica",
     "nivel":"cinco",
     "dias_max_respuesta":1
   },
   {
-    "id":"7bdfb373-c5ee-408d-b251-ee34ad2b17f4",
+    "id":"3e201925-a979-49e7-aac1-e53b009bd527",
     "nombre":"Critica",
     "nivel":null,
     "dias_max_respuesta":null
   },
   {
-    "id":"86a638ad-f88b-464f-980c-7f6213247068",
-    "nombre":"Urgente",
-    "nivel":4,
-    "dias_max_respuesta":2
+    "id":"bf208fa0-a8d1-4f5f-9c94-bb6ec9fce3ac",
+    "nombre":" media ",
+    "nivel":"2",
+    "dias_max_respuesta":10
   },
   {
-    "id":"b81fcb7a-41b5-4de5-870c-e9798f0376af",
+    "id":"481b292a-92ff-4860-b0a9-0fb590d7d0ad",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"c69bcdc0-6cc9-4430-870d-d0464497f11a",
+    "id":"63b18c0c-f7af-4979-b95a-a6946eed1dd4",
     "nombre":" critica ",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"ef0241e3-4914-42fa-83c9-27f34afeb0ed",
+    "id":"719bc16b-1fa5-454b-ae8e-4a9ed92690c5",
     "nombre":"Media",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"f2eced90-c1ad-4194-b72d-4518734edcc4",
+    "id":"3db471dc-ec38-42a3-821e-9bf2c01583fd",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"79a6ad35-7397-4f64-a2c5-5d64007cdcae",
+    "id":"3b3a9edc-5d97-485d-a246-46a5f3b3752a",
     "nombre":" urgente ",
     "nivel":4,
     "dias_max_respuesta":null
   },
   {
-    "id":"d1b25a1d-3c0e-4927-8fa6-ac34ca3dd6c6",
+    "id":"a02449d9-0d36-4559-a48a-62d85b8ebaf3",
     "nombre":"Alta",
     "nivel":"3",
     "dias_max_respuesta":5
   },
   {
-    "id":"91b21494-d9b1-4a83-96db-89328a59a08a",
+    "id":"b6ebaa07-9743-413e-9305-b1a8a6324bff",
     "nombre":" urgente ",
     "nivel":4,
     "dias_max_respuesta":2
   },
   {
-    "id":"438adae5-61b8-4ad3-ad4c-75e443c4b0b0",
+    "id":"10cd789f-c9d7-4393-a139-3ca0b07aaac4",
     "nombre":"Critica",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"cd32833d-7cde-4baf-b69c-e15f6912f3bb",
-    "nombre":"Urgente",
-    "nivel":null,
-    "dias_max_respuesta":2
+    "id":"32403074-9b84-4fc8-be29-b32df76c2a8c",
+    "nombre":"Media",
+    "nivel":2,
+    "dias_max_respuesta":10
   },
   {
-    "id":"5bdc3c0b-616f-47f6-936a-815c12ffbd1e",
+    "id":"7ba5a072-3f78-44e7-83c0-da5c5ee79ea1",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"e8534ef2-f079-4366-a228-5b5b466f10f7",
+    "id":"b82fdc55-94da-4660-9978-c69f3a67e753",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":999
   },
   {
-    "id":"fc424bcf-d8e5-4012-9b01-cf08175b13fb",
+    "id":"f33d110e-b06a-4b2a-a207-656019b10982",
     "nombre":"MEDIA",
     "nivel":2,
     "dias_max_respuesta":10
   },
   {
-    "id":"77bf4b2e-daed-4d45-a8cb-991d9571a07a",
+    "id":"c2fa369d-1d3f-4472-917c-7ca488ce24d1",
     "nombre":"BAJA",
     "nivel":1,
     "dias_max_respuesta":15
   },
   {
-    "id":"f562c02b-f75c-4e65-a773-6043b5871fcf",
+    "id":"939018d7-9995-4985-973f-03ba74af3f55",
     "nombre":"Alta",
     "nivel":3,
     "dias_max_respuesta":5
   },
   {
-    "id":"69b32ad7-d4a1-4612-891f-cb9c61efb8b2",
+    "id":"a203313d-754e-45be-8961-3766130aecf7",
     "nombre":"Baja",
     "nivel":1,
     "dias_max_respuesta":999
   },
   {
-    "id":"4f738623-4cd5-4a6a-8bfb-cff884d4d498",
+    "id":"9c403bdf-c472-4178-862d-59db5159de70",
     "nombre":" critica ",
     "nivel":5,
     "dias_max_respuesta":1
   },
   {
-    "id":"cb084fcf-542e-4323-be5b-91cba80cd48f",
+    "id":"7a530e1c-f145-4475-80bb-7e6a6232c025",
     "nombre":"Critica",
     "nivel":null,
     "dias_max_respuesta":1
   },
   {
-    "id":"8d23697c-e5e3-4f88-9125-3e41d930c0ec",
+    "id":"2ac46347-76cd-4ec0-99ba-9437a137c746",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":10
   },
   {
-    "id":"90162560-8719-4280-9619-58cbba1d0475",
+    "id":"53f80b45-b9e5-459f-9ebd-8a775cb893c6",
     "nombre":"Critica",
     "nivel":null,
     "dias_max_respuesta":1
   },
   {
-    "id":"32a0a857-d9be-4ba9-a833-8ba984c08dc2",
+    "id":"d1bd811f-7413-4efc-b903-ec02a5546c9b",
     "nombre":"Media",
     "nivel":"dos",
     "dias_max_respuesta":10
   },
   {
-    "id":"090f0e4b-8af5-4a5a-bf6d-0ac542f135de",
+    "id":"5d9a7967-4e0f-4bb2-ad40-a81789d60857",
     "nombre":" baja ",
     "nivel":null,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"f9208a40-e8b2-4811-b6c1-c4ac0783db17",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"11fee6bd-a13c-4f80-84eb-f02cb51e0484",
-    "nombre":"Critica",
-    "nivel":"5",
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"8a84c0c7-3e2c-476d-812a-3c0346987602",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"69b32ad7-d4a1-4612-891f-cb9c61efb8b2",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":999
-  },
-  {
-    "id":"9d2966a1-87f5-44c2-b004-38606fd8474d",
-    "nombre":"Urgente",
-    "nivel":4,
-    "dias_max_respuesta":2
-  },
-  {
-    "id":"8f1982e2-16b0-4c2f-9489-0b3d0d376ba0",
-    "nombre":"Media",
-    "nivel":"2",
-    "dias_max_respuesta":10
-  },
-  {
-    "id":"451755a3-9a7d-46b3-949c-7e13ebdd3024",
-    "nombre":"CRITICA",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"405dfabc-f15c-498c-98da-f5b9b76b19ee",
-    "nombre":"Media",
-    "nivel":2,
-    "dias_max_respuesta":10
-  },
-  {
-    "id":"3a7a5f34-096a-4aab-9826-699aba8bc6d3",
-    "nombre":" alta ",
-    "nivel":"tres",
-    "dias_max_respuesta":5
-  },
-  {
-    "id":"e0b09744-3db3-4f7b-b0ba-cf46a4aff196",
-    "nombre":"Critica",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"374ac84a-6cee-4743-8629-4555f582ea86",
-    "nombre":"CRITICA",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"9ec22a82-5a59-4d44-b3c8-7b5b0d58ccd7",
-    "nombre":"Baja",
-    "nivel":1,
-    "dias_max_respuesta":999
-  },
-  {
-    "id":"d595eba3-883a-426d-a779-df3408cdbdf9",
-    "nombre":"CRITICA",
-    "nivel":5,
-    "dias_max_respuesta":1
-  },
-  {
-    "id":"55d1473a-31ee-473a-83dc-825ea12f276b",
-    "nombre":"BAJA",
-    "nivel":null,
-    "dias_max_respuesta":15
-  },
-  {
-    "id":"d4c3eed2-9705-47c1-b02b-5e259a1dbe45",
-    "nombre":"Media",
-    "nivel":2,
-    "dias_max_respuesta":10
-  },
-  {
-    "id":"13a66967-866e-4a3a-a500-6911a1b022c3",
-    "nombre":" baja ",
-    "nivel":1,
     "dias_max_respuesta":15
   }
 ]
