@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Revisa registros_sucio (.csv, .xlsx o .json) contra las HU E6-REG-F01 y E6-REG-X01.
+"""Revisa empresas_sucio (.csv, .xlsx o .json) contra las HU E6-EMP-F01 y E6-EMP-X01.
 
 Uso:
-    python scripts/revisar_datos.py registros_sucio.csv
+    python revisar_datos.py data/crudo/empresas_sucio.csv
 
 Imprime una tabla en Markdown con: Comprobación | Esperado | Encontrado | Estado.
 Usa pandas solo porque hace falta para leer Excel (con openpyxl).
@@ -13,15 +13,15 @@ from pathlib import Path
 
 import pandas as pd
 
-# --- Criterios tomados de references/criterios.md -------------------------
-FILAS_ESPERADAS = 800
+# --- Criterios de las HU de empresas ---------------------------------------
+FILAS_ESPERADAS = 300
 COLUMNAS_ESPERADAS = [
-    "id", "fecha_registro", "observacion", "estado", "id_usuario", "id_reto",
+    "id", "nombre", "nit", "sector", "contacto", "correo", "telefono", "activa",
 ]
-PCT_NULOS_OBSERVACION = 20.0   # observacion: 20% en None
-PCT_EXACTOS = 5.0              # 5% de filas repetidas tal cual
-PCT_PARES_REPETIDOS = 10.0     # 10% con el par id_usuario + id_reto repetido
-TOLERANCIA = 2.0               # margen en puntos porcentuales para los %
+PCT_NULOS_CONTACTO = 8.0   # contacto: 8% en None
+PCT_EXACTOS = 5.0          # 5% de filas repetidas tal cual
+PCT_NIT_REPETIDOS = 3.0    # 3% de NIT repetidos entre empresas distintas
+TOLERANCIA = 3.0           # margen en puntos porcentuales para los %
 
 
 def fila(comprobacion, esperado, encontrado, ok):
@@ -38,7 +38,7 @@ def leer_archivo(ruta):
     """Lee el CSV, Excel o JSON y devuelve (DataFrame, comprobaciones_extra).
 
     Todo se lee como texto para no alterar los valores sucios. En Excel
-    también revisa que la hoja se llame "registros" (criterio de X01).
+    también revisa que la hoja se llame "empresas" (criterio de X01).
     """
     extra = []
     sufijo = ruta.suffix.lower()
@@ -46,9 +46,9 @@ def leer_archivo(ruta):
         df = pd.read_csv(ruta, dtype=str, encoding="utf-8")
     elif sufijo in (".xlsx", ".xls"):
         hojas = pd.ExcelFile(ruta).sheet_names
-        existe = "registros" in hojas
-        extra.append(fila('Hoja de Excel "registros"', "registros", ", ".join(hojas), existe))
-        df = pd.read_excel(ruta, sheet_name="registros" if existe else 0, dtype=str)
+        existe = "empresas" in hojas
+        extra.append(fila('Hoja de Excel "empresas"', "empresas", ", ".join(hojas), existe))
+        df = pd.read_excel(ruta, sheet_name="empresas" if existe else 0, dtype=str)
     elif sufijo == ".json":
         with open(ruta, encoding="utf-8") as f:
             df = pd.DataFrame(json.load(f))  # orient="records": lista de objetos
@@ -62,7 +62,7 @@ def revisar_filas_y_columnas(df):
     faltan = [c for c in COLUMNAS_ESPERADAS if c not in df.columns]
     sobran = [c for c in df.columns if c not in COLUMNAS_ESPERADAS]
     if not faltan and not sobran:
-        encontrado = "las 6 columnas"
+        encontrado = f"las {len(COLUMNAS_ESPERADAS)} columnas"
     else:
         partes = []
         if faltan:
@@ -77,7 +77,7 @@ def revisar_filas_y_columnas(df):
 
 
 def revisar_nulos(df):
-    """Cuenta los nulos de cada columna: observacion ≈20%, las demás en 0."""
+    """Cuenta los nulos de cada columna: contacto ≈8%, las demás en 0."""
     resultados = []
     n = len(df)
     for col in COLUMNAS_ESPERADAS:
@@ -87,9 +87,9 @@ def revisar_nulos(df):
         nulos = int(df[col].isna().sum())
         pct = porcentaje(nulos, n)
         encontrado = f"{nulos} ({pct:.1f}%)"
-        if col == "observacion":
-            esperado = f"≈{PCT_NULOS_OBSERVACION:.0f}% (±{TOLERANCIA:.0f} pts)"
-            ok = abs(pct - PCT_NULOS_OBSERVACION) <= TOLERANCIA
+        if col == "contacto":
+            esperado = f"≈{PCT_NULOS_CONTACTO:.0f}% (±{TOLERANCIA:.0f} pts)"
+            ok = abs(pct - PCT_NULOS_CONTACTO) <= TOLERANCIA
         else:
             esperado = "0"
             ok = nulos == 0
@@ -98,7 +98,7 @@ def revisar_nulos(df):
 
 
 def revisar_duplicados(df):
-    """Cuenta duplicados por columna, filas repetidas tal cual y pares usuario+reto."""
+    """Cuenta filas repetidas tal cual, NIT repetidos y duplicados por columna."""
     resultados = []
     n = len(df)
     exactas = int(df.duplicated().sum())
@@ -110,19 +110,19 @@ def revisar_duplicados(df):
         abs(pct_exactas - PCT_EXACTOS) <= TOLERANCIA,
     ))
 
-    # Pares id_usuario + id_reto repetidos, sin contar las copias exactas
-    if {"id_usuario", "id_reto"} <= set(df.columns):
-        pares = int(df.drop_duplicates().duplicated(subset=["id_usuario", "id_reto"]).sum())
-        pct_pares = porcentaje(pares, n)
+    # NIT repetidos entre empresas distintas, sin contar las copias exactas
+    if "nit" in df.columns:
+        nit_rep = int(df.drop_duplicates().duplicated(subset=["nit"]).sum())
+        pct_nit = porcentaje(nit_rep, n)
         resultados.append(fila(
-            "Pares id_usuario + id_reto repetidos",
-            f"≥{PCT_PARES_REPETIDOS:.0f}% (−{TOLERANCIA:.0f} pts)",
-            f"{pares} ({pct_pares:.1f}%)",
-            pct_pares >= PCT_PARES_REPETIDOS - TOLERANCIA,
+            "NIT repetidos entre empresas distintas",
+            f"≈{PCT_NIT_REPETIDOS:.0f}% (±{TOLERANCIA:.0f} pts)",
+            f"{nit_rep} ({pct_nit:.1f}%)",
+            abs(pct_nit - PCT_NIT_REPETIDOS) <= TOLERANCIA,
         ))
     else:
-        resultados.append(fila("Pares id_usuario + id_reto repetidos",
-                               "ambas columnas presentes", "falta una", False))
+        resultados.append(fila("NIT repetidos entre empresas distintas",
+                               "columna nit presente", "falta la columna", False))
 
     for col in COLUMNAS_ESPERADAS:
         if col not in df.columns:
@@ -152,7 +152,7 @@ def tabla_markdown(resultados):
 def main(argv):
     """Punto de entrada: lee el archivo, ejecuta las revisiones e imprime la tabla."""
     if len(argv) != 2:
-        print("Uso: python scripts/revisar_datos.py registros_sucio.csv", file=sys.stderr)
+        print("Uso: python revisar_datos.py data/crudo/empresas_sucio.csv", file=sys.stderr)
         return 1
     ruta = Path(argv[1])
     if not ruta.exists():
